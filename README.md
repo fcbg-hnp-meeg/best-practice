@@ -1,2 +1,2 @@
-# GoodPractice
-GoodPractice
+# Best Practice
+Best practice
