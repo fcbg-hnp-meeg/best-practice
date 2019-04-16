@@ -17,7 +17,6 @@
  * At the start of a project development to do prototyping (initial steps visualization, etc.)
  * During development to test code features
  * At the end of a project development to share with others global experiment, with text explanations, figures, etc. 
- Use/develop a python package **which works** with a known set of python libraries (can simply export environment)
 
 ## Installation
 Cf. conda installation instructions which includes integration with Jupyter
