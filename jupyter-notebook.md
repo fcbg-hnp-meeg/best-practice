@@ -1,4 +1,4 @@
-# Conda
+# Jupyter Notebook
 
 ## Overview
 
