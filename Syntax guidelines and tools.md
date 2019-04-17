@@ -356,7 +356,7 @@ you can use the command line script:
 
 ```python
 %%cmd
-flake8 C:\Users\vferat\Desktop\eeg-ICAtoolbox\icatoolbox.py
+flake8 my_script.py
 ```
 
 or use one of the following addon for your code editor:
