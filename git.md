@@ -16,15 +16,15 @@ Workflow
 ========
 
 Your local repository consists of three "trees" maintained by git. 
-The first one is your <Working Directory> which holds the actual files. 
-The second one is the <Index> which acts as a staging area. 
-Finally the <HEAD> which points to the last commit you've made.
+The first one is your _Working Directory_ which holds the actual files. 
+The second one is the _Index_ which acts as a staging area. 
+Finally the _HEAD_ which points to the last commit you've made.
 
 
 add & commit
 ============
 
-First, changes are staged to the Index tree
+First, changes are staged to the _Index_ tree
 
 From a specific file:
 
@@ -39,7 +39,7 @@ From all the files already tracked:
     git add -U
 
 
-Second, changes have to be commited to the HEAD tree. They are not yet commited to the remote repository.
+Second, changes have to be commited to the _HEAD_ tree. They are not yet commited to the remote repository.
 
      git commit -m "commit message"
 
@@ -47,7 +47,7 @@ Second, changes have to be commited to the HEAD tree. They are not yet commited 
 Pushing changes
 ===============
 
-Your changes are now in the HEAD of your local working copy. 
+Your changes are now in the _HEAD_ of your local working copy. 
 
 To send those changes to your remote repository:
 
@@ -131,7 +131,7 @@ These are just a few of the possible parameters you can use. For more, see:
 Replace local changes
 =====================
 
-To replace local changes in your working tree with the last content in HEAD:
+To replace local changes in your working tree with the last content in _HEAD_:
 
     git checkout -- <filename>
 Changes already added to the INDEX, as well as new files, will be kept.
