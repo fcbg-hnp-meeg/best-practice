@@ -79,12 +79,17 @@ If it seems difficult to summarize what your commit does, it may be because it i
     
     git add -p.
 
-Remove
-======
+Remove or rename a file
+=======================
 
 To remove a file from git:
 
     git rm <filename>
+
+To move or rename a file:
+
+    git move file_from file_to
+    
 
 Status
 ======
