@@ -53,6 +53,9 @@ Second, changes have to be commited to the _HEAD_ tree. They are not yet commite
 
      git commit -m "commit message"
 
+If you want to skip the staging area and automatically stage every file that is already tracked before doing the commit
+
+    git commit -a -m "commit message"    
 
 To write a comment, follow those instructions:
 
@@ -75,6 +78,13 @@ For example,
 If it seems difficult to summarize what your commit does, it may be because it includes several logical changes or bug fixes, and are better split up into several commits using
     
     git add -p.
+
+Remove
+======
+
+To remove a file from git:
+
+    git rm <filename>
 
 Status
 ======
