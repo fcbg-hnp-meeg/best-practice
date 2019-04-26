@@ -5,11 +5,15 @@ Introduction
 
 Create a new repository
 =======================
-create a new directory, open it and perform a
+Create a new directory, open it and create a new git repository:
 
     git init
 
-to create a new git repository.
+
+Clone a remote repository
+=========================
+
+    git clone <https_address> 
 
 
 Workflow
@@ -17,11 +21,11 @@ Workflow
 
 Your local repository consists of three "trees" maintained by git. 
 
-The first one is your _Working Directory_ which holds the actual files. 
+*_Working Directory_ which holds the actual files. 
 
-The second one is the _Index_ which acts as a staging area. 
+*_Index_ which acts as a staging area. 
 
-Finally the _HEAD_ which points to the last commit you've made.
+*_HEAD_ which points to the last commit you've made.
 
 
 add & commit
