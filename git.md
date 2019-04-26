@@ -33,18 +33,29 @@ From a specific file:
 
     git add <filename>
 
-From all the files in the folder including untracked files:
+From all the files in the folder including untracked files, without deletions:
     
-    git add *
+    git add .
+
+From all the files in the folder including untracked files, including deletions:
+    
+    git add -A
 
 From all the files already tracked:
     
     git add -U
 
-
 Second, changes have to be commited to the _HEAD_ tree. They are not yet commited to the remote repository.
 
      git commit -m "commit message"
+
+
+Status
+======
+
+Find out information regarding what files are modified and what files are there in the staging area :
+
+    git status
 
 
 Pushing changes
@@ -68,17 +79,25 @@ Branching
 
 Branches are used to develop features isolated from each other. The master branch is the "default" branch when you create a repository. Use other branches for development and merge them back to the master branch upon completion.
 
+Create a new branch named "feature_x":
+    
+    git branch feature_x
+
+To switch to the new branch:
+
+    git checkout feature_x 
+
 Create a new branch named "feature_x" and switch to it using:
 
     git checkout -b feature_x
 
-switch back to master:
-
-    git checkout master
-
-and delete the branch again:
+Delete the branch again:
 
     git branch -d feature_x
+
+List all the branch
+
+    git branch
 
 A branch is not available to others unless you push the branch to your remote repository:
 
@@ -143,3 +162,9 @@ To drop all your local changes and commits:
 
     git fetch origin
     git reset --hard origin/master
+
+
+Summary
+=======
+
+![Image](gitWorkflow.png "icon")
