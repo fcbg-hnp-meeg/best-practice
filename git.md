@@ -54,6 +54,22 @@ Second, changes have to be commited to the _HEAD_ tree. They are not yet commite
      git commit -m "commit message"
 
 
+To write a comment, follow those instructions:
+
+* Start the subject line with "Fix", "Add", "Change" instead of "Fixed", "Added", "Changed".
+* Limit the subject line to 50 characters (72 is the hard limit)
+* Always leave the second line blank
+* Not every commit requires a body
+* Wrap the body at 72 characters
+
+A properly formed Git commit subject line should always be able to complete the following sentence: _If applied, this commit will your subject line here_. For example, 
+
+    If applied, this commit will refactor subsystem X for readability
+
+If it seems difficult to summarize what your commit does, it may be because it includes several logical changes or bug fixes, and are better split up into several commits using
+    
+    git add -p.
+
 Status
 ======
 
