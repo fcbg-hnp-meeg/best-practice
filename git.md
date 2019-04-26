@@ -13,7 +13,7 @@ Create a new directory, open it and create a new git repository:
 Clone a remote repository
 =========================
 
-    git clone <https_address> 
+    git clone <URL> 
 
 
 Workflow
@@ -89,7 +89,7 @@ To remove a file from git:
 To move or rename a file:
 
     git move file_from file_to
-    
+
 
 Status
 ======
@@ -205,7 +205,31 @@ To drop all your local changes and commits:
     git reset --hard origin/master
 
 
+Configuring tool
+================
+
+Sets the name you want attached to your commit transactions:
+
+     git config --global user.name "[name]"
+
+Sets the email you want attached to your commit transactions:
+
+    git config --global user.email "[email address]"
+
+Enables helpful colorization of command line output:
+
+    git config --global color.ui auto
+
+To exclude files and path from git versioning, add the file name to the _.gitignore_ file.
+
+To list all ignored files in this project:
+
+    git ls-files --other --ignored --exclude-standard
+
 Summary
 =======
+
+The official documentation can be found at [here][https://git-scm.com/docs]
+
 
 ![Image](gitWorkflow.png "icon")
