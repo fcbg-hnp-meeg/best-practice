@@ -62,9 +62,15 @@ To write a comment, follow those instructions:
 * Not every commit requires a body
 * Wrap the body at 72 characters
 
-A properly formed Git commit subject line should always be able to complete the following sentence: _If applied, this commit will your subject line here_. For example, 
+A properly formed Git commit subject line should always be able to complete the following sentence: 
+
+_If applied, this commit will your subject line here_
+
+For example, 
 
     If applied, this commit will refactor subsystem X for readability
+    If applied, this commit will update getting started documentation
+    If applied, this commit will remove deprecated methods
 
 If it seems difficult to summarize what your commit does, it may be because it includes several logical changes or bug fixes, and are better split up into several commits using
     
