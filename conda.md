@@ -78,7 +78,7 @@ pip install git+git://github.com/jkbr/httpie.git
 ```bash
 Create python 3.7 env
 conda create python=3.7 -p ~/python_envs/sci37
-source activate sci37
+conda activate sci37
 conda install numpy cython ipython scipy scikit-learn pandas xlrd matplotlib ipykernel
 ```
 
