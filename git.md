@@ -16,8 +16,11 @@ Workflow
 ========
 
 Your local repository consists of three "trees" maintained by git. 
+
 The first one is your _Working Directory_ which holds the actual files. 
+
 The second one is the _Index_ which acts as a staging area. 
+
 Finally the _HEAD_ which points to the last commit you've made.
 
 
