@@ -190,6 +190,9 @@ These are just a few of the possible parameters you can use. For more, see:
 
     git log --help
 
+Outputs metadata and content changes of the specified commit:
+
+    git show [commit]
 
 Replace local changes
 =====================
