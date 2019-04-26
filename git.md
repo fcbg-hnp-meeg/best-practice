@@ -232,7 +232,4 @@ To list all ignored files in this project:
 Summary
 =======
 
-The official documentation can be found at [here][https://git-scm.com/docs]
-
-
 ![Image](gitWorkflow.png "icon")
