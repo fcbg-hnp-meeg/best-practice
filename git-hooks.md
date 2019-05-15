@@ -12,9 +12,13 @@ Scripts are usually written in shell but any executable is fine.
 
 ## Example of PEP 8 validation
 ### PEP 8 install
-conda install flake8 (or pip install)
+```bash
+conda install flake8 # or pip install
+```
+```bash
 echo "#!/bin/sh" >> .git/hooks/pre-commit 
 echo "flake8 ." >> .git/hooks/pre-commit
+```
 
 ## Local hooks categories
 * pre-commit
