@@ -1,7 +1,11 @@
 Introduction
 ============
 
+Git is a distributed version control system (VCS). VCS keeps track of every modification to the code in a special kind of database. 
+If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members. 
+Developing software without using VCS is risky/. VCS also enable developers to move faster and allows software teams to preserve efficiency and agility as the team scales up to include more developers.
 
+![Image](VCS.jpg "icon")
 
 Create a new repository
 =======================
