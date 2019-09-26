@@ -281,7 +281,7 @@ a = a * 2
 a -= 2
 
 if a == 0:
-    #Block comment are indented to the same level as code
+    # Block comment are indented to the same level as code
     print(a)
 else:
     pass
